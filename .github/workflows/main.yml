@@ -1,0 +1,18 @@
+main: Nodejs actions github
+on: push
+jobs:
+  build:
+    runs-on: ubuntu-llatest
+    steps: 
+      - uses: actions/checkout@v3 # check out the repository
+
+      - name: Use Nodejs
+        uses: actions/setup-node@v3
+        with: 16
+
+      - name: Install Dependencies
+        run: npm Install
+
+      - name: Run Test
+        run: npm run test
+

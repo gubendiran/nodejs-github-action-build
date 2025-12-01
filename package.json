@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-github-action-build",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src",
+    "test": "jest src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gubendiran/nodejs-github-action-build.git"
+  },
+  "author": "gubendiran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gubendiran/nodejs-github-action-build/issues"
+  },
+  "homepage": "https://github.com/gubendiran/nodejs-github-action-build#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0",
+    "supertest": "^7.1.4"
+  }
+}
