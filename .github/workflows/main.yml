@@ -1,4 +1,4 @@
-main: Nodejs actions github
+name: Nodejs actions github
 on: push
 jobs:
   build:
