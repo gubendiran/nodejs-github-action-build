@@ -8,7 +8,7 @@ jobs:
 
       - name: Use Nodejs
         uses: actions/setup-node@v3
-        with: 16
+        with: 22.18.0
 
       - name: Install Dependencies
         run: npm Install
