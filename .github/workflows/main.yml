@@ -2,7 +2,7 @@ name: Nodejs actions github
 on: push
 jobs:
   build:
-    runs-on: ubuntu-llatest
+    runs-on: ubuntu-latest
     steps: 
       - uses: actions/checkout@v3 # check out the repository
 
